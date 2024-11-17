@@ -1238,3 +1238,127 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.17-13.08.17:876][343]LogFileHelpers: InternalPromptForCheckoutAndSave took 743 ms (total: 893 ms)
 [2024.11.17-13.08.17:878][343]AssetCheck: New page: 에셋 저장:  Section1
 [2024.11.17-13.08.17:878][343]LogContentValidation: Display: /Script/Engine.World /Game/ProjectContent/Map/Section1.Section1 유효성 검사 중
+[2024.11.17-13.11.30:140][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.17-13.11.30:274][509]LogFileManager: Warning: MoveFile was unable to move 'D:/unreal/unreal_training/unreal_training/unreal_train/Saved/EditorPerProjectUserSettings32FB6CA04D78B87081684EB98331E0B2.tmp' to 'D:/unreal/unreal_training/unreal_training/unreal_train/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini' (Error Code 5), retrying in .5s...
+[2024.11.17-13.11.30:783][509]LogFileManager: Warning: MoveFile recovered during retry!
+[2024.11.17-13.11.30:801][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.11.17-13.11.30:844][509]LogSavePackage: Moving output files for package: /Game/ProjectContent/Map/Section1
+[2024.11.17-13.11.30:846][509]LogSavePackage: Moving 'D:/unreal/unreal_training/unreal_training/unreal_train/Saved/Section16C1D09384EFC802C1ACDDAAC54716AC2.tmp' to 'D:/unreal/unreal_training/unreal_training/unreal_train/Content/ProjectContent/Map/Section1.umap'
+[2024.11.17-13.11.30:868][509]LogFileHelpers: Saving map 'Section1' took 0.638
+[2024.11.17-13.11.30:875][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 735 ms (total: 1.62 sec)
+[2024.11.17-13.11.30:876][509]AssetCheck: New page: 에셋 저장:  Section1
+[2024.11.17-13.11.30:876][509]LogContentValidation: Display: /Script/Engine.World /Game/ProjectContent/Map/Section1.Section1 유효성 검사 중
+[2024.11.17-13.11.32:279][591]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.11.17-13.11.32:309][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.17-13.11.32:310][591]PIE: New page: PIE 세션: Section1 (2024. 11. 18. 오전 7:11:32)
+[2024.11.17-13.11.32:315][591]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.11.17-13.11.32:316][591]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.11.17-13.11.32:316][591]LogPlayLevel: Creating play world package: /Game/ProjectContent/Map/UEDPIE_0_Section1
+[2024.11.17-13.11.32:317][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2024.11.17-13.11.32:317][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectContent/Map/Section1.Section1 to /Game/ProjectContent/Map/UEDPIE_0_Section1.Section1 (0.001558s)
+[2024.11.17-13.11.32:339][591]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.11.17-13.11.32:341][591]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.17-13.11.32:341][591]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.17-13.11.32:341][591]LogAIModule: Creating AISystem for world Section1
+[2024.11.17-13.11.32:342][591]LogPlayLevel: PIE: World Init took: (0.002024s)
+[2024.11.17-13.11.32:342][591]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.11.17-13.11.32:342][591]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.17-13.11.32:342][591]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.17-13.11.32:342][591]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.17-13.11.32:342][591]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.17-13.11.32:342][591]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.17-13.11.32:342][591]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.17-13.11.32:342][591]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.17-13.11.32:342][591]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.17-13.11.32:343][591]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.17-13.11.32:343][591]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.17-13.11.32:343][591]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.17-13.11.32:346][591]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.17-13.11.32:365][591]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(Samsung USB C Earphones)
+[2024.11.17-13.11.32:365][591]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.17-13.11.32:365][591]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.17-13.11.32:365][591]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.17-13.11.32:366][591]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.11.17-13.11.32:366][591]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.11.17-13.11.32:367][591]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.11.17-13.11.32:367][591]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.11.17-13.11.32:367][591]LogInit: FAudioDevice initialized with ID 2.
+[2024.11.17-13.11.32:367][591]LogAudio: Display: Audio Device (ID: 2) registered with world 'Section1'.
+[2024.11.17-13.11.32:367][591]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.11.17-13.11.32:371][591]LogLoad: Game class is 'GameModeBase'
+[2024.11.17-13.11.32:371][591]LogWorld: Bringing World /Game/ProjectContent/Map/UEDPIE_0_Section1.Section1 up for play (max tick rate 60) at 2024.11.17-22.11.32
+[2024.11.17-13.11.32:372][591]LogWorld: Bringing up level for play took: 0.000682
+[2024.11.17-13.11.32:374][591]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2024.11.17-13.11.32:384][591]LogBlueprintUserMessages: [Section1_C_0] Your beginnings will seem humble, so prosperous will your future be.
+[2024.11.17-13.11.32:385][591]PIE: 서버가 로그인했습니다.
+[2024.11.17-13.11.32:386][591]PIE: 에디터에서 플레이 총 시작 시간 0.078초입니다.
+[2024.11.17-13.11.34:096][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.17-13.11.34:096][684]LogWorld: BeginTearingDown for /Game/ProjectContent/Map/UEDPIE_0_Section1
+[2024.11.17-13.11.34:097][684]LogWorld: UWorld::CleanupWorld for Section1, bSessionEnded=true, bCleanupResources=true
+[2024.11.17-13.11.34:097][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.17-13.11.34:102][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.17-13.11.34:106][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.17-13.11.34:116][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.17-13.11.34:116][684]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.11.17-13.11.34:116][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.11.17-13.11.34:119][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.11.17-13.11.34:125][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.17-13.11.34:176][686]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.11.17-13.11.37:447][712]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 985.663452
+[2024.11.17-13.11.38:449][715]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.17-13.11.38:449][715]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 986.333130, Update Interval: 333.837097
+[2024.11.17-13.12.30:092][193]BlueprintLog: New page: Section1 컴파일
+[2024.11.17-13.12.30:113][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.11.17-13.12.30:549][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.17-13.12.30:719][216]LogFileManager: Warning: MoveFile was unable to move 'D:/unreal/unreal_training/unreal_training/unreal_train/Saved/EditorPerProjectUserSettings33B998944FDB5986C818D1AE4D5BFAB4.tmp' to 'D:/unreal/unreal_training/unreal_training/unreal_train/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini' (Error Code 5), retrying in .5s...
+[2024.11.17-13.12.31:228][216]LogFileManager: Warning: MoveFile recovered during retry!
+[2024.11.17-13.12.31:265][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.17-13.12.31:308][216]LogSavePackage: Moving output files for package: /Game/ProjectContent/Map/Section1
+[2024.11.17-13.12.31:309][216]LogSavePackage: Moving 'D:/unreal/unreal_training/unreal_training/unreal_train/Saved/Section1F65F7A42471D290983F1A49A9C135E77.tmp' to 'D:/unreal/unreal_training/unreal_training/unreal_train/Content/ProjectContent/Map/Section1.umap'
+[2024.11.17-13.12.31:337][216]LogFileHelpers: Saving map 'Section1' took 0.672
+[2024.11.17-13.12.31:351][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 801 ms (total: 2.43 sec)
+[2024.11.17-13.12.31:355][216]AssetCheck: New page: 에셋 저장:  Section1
+[2024.11.17-13.12.31:355][216]LogContentValidation: Display: /Script/Engine.World /Game/ProjectContent/Map/Section1.Section1 유효성 검사 중
+[2024.11.17-13.12.32:361][273]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.11.17-13.12.32:388][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.17-13.12.32:388][273]PIE: New page: PIE 세션: Section1 (2024. 11. 18. 오전 7:12:32)
+[2024.11.17-13.12.32:388][273]LogPlayLevel: Creating play world package: /Game/ProjectContent/Map/UEDPIE_0_Section1
+[2024.11.17-13.12.32:390][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2024.11.17-13.12.32:390][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectContent/Map/Section1.Section1 to /Game/ProjectContent/Map/UEDPIE_0_Section1.Section1 (0.001340s)
+[2024.11.17-13.12.32:401][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.11.17-13.12.32:402][273]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.17-13.12.32:402][273]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.17-13.12.32:403][273]LogAIModule: Creating AISystem for world Section1
+[2024.11.17-13.12.32:403][273]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2024.11.17-13.12.32:403][273]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.11.17-13.12.32:403][273]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.17-13.12.32:403][273]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.17-13.12.32:403][273]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.17-13.12.32:403][273]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.17-13.12.32:403][273]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.17-13.12.32:403][273]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.17-13.12.32:403][273]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.17-13.12.32:403][273]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.17-13.12.32:404][273]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.17-13.12.32:404][273]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.17-13.12.32:404][273]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.17-13.12.32:405][273]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.17-13.12.32:416][273]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(Samsung USB C Earphones)
+[2024.11.17-13.12.32:416][273]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.17-13.12.32:416][273]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.17-13.12.32:416][273]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.17-13.12.32:417][273]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.11.17-13.12.32:417][273]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.11.17-13.12.32:418][273]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.11.17-13.12.32:418][273]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.11.17-13.12.32:418][273]LogInit: FAudioDevice initialized with ID 3.
+[2024.11.17-13.12.32:418][273]LogAudio: Display: Audio Device (ID: 3) registered with world 'Section1'.
+[2024.11.17-13.12.32:418][273]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.17-13.12.32:421][273]LogLoad: Game class is 'GameModeBase'
+[2024.11.17-13.12.32:421][273]LogWorld: Bringing World /Game/ProjectContent/Map/UEDPIE_0_Section1.Section1 up for play (max tick rate 60) at 2024.11.17-22.12.32
+[2024.11.17-13.12.32:421][273]LogWorld: Bringing up level for play took: 0.000294
+[2024.11.17-13.12.32:423][273]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.11.17-13.12.32:424][273]LogBlueprintUserMessages: [Section1_C_1] Your beginnings will seem humble, so prosperous will your future be.
+[2024.11.17-13.12.32:424][273]LogBlueprintUserMessages: [Section1_C_1] 시작은 미약하였으나 끝은 창대하리라
+[2024.11.17-13.12.32:424][273]PIE: 서버가 로그인했습니다.
+[2024.11.17-13.12.32:425][273]PIE: 에디터에서 플레이 총 시작 시간 0.036초입니다.
